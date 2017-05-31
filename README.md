@@ -1,31 +1,20 @@
+# Online trading platform and price comparator
 
-T64-Komparator
-Francisco Teixeira de Barros, 85069, francisco.t.barros@tecnico.ulisboa.pt
+Institution: Instituto Superior Técnico - Universidade de Lisboa
 
-	* TWO MEDIATOR INSTANCES: OK
-	* WSDL: OK
-	* LIFEPROOF: OK
-	* MEDIATOR MESSAGEID RELAYING: OK
-	* IDEMPOTENT OPERATIONS WITH AT-LEAST-ONCE: OK
-	* NON-IDEMPOTENT OPERATIONS WITH AT-MOST-ONCE: OK
-	* REPLICATION: OK
-	* CONNECTIONTIMEOUTS: OK
-	* RECIEVINGTIMEOUTS: OK
-	* SUPERTIMEOUT: OK
-	* EXCEPTION CONTROL: OK
-	* ALL EIGHT COMBINATIONS OF RUNNING SERVERS: OK
-	* BUYCARTIT: OK
-	* ADDTOCARTIT: OK
-	* SEARCHITEMSIT: OK
-	* GETITEMSIT: OK
-	* XML PRETTYPRINT CLASS: OK
-	* ALL HANDLERS FUNCTIONAL: OK
-	* TOLFALTAS-REPORT: OK
-	* TOLFALTAS-SCRIPT: OK
-	* STATE TRANSPARENCY: OK
-	* MAXATTEMPT VARS: OK
-	* FRONT-END CLASS: OK
-	* POM COVERING HANDLE ISSUES: OK
-	* POM COVERING WSDL ISSUES: OK
-	* MESSAGEID SUPPLIER REMAKE: MISSING
-	* MEDIATORAPP: OK
+Course: Computer Science and Engineering (LEIC)
+
+Academic year: 2016-2017
+
+Authors: Francisco Barros
+
+Subject: Distributed Systems (2nd year, 2nd semester)
+
+Project details:
+
+	* Objective: Implmenting a webservice with fully functional supplier and mediator servers, supplier clients and mediator clients are simulated using junit tests or by manually executing their respective applications.
+	* Implentation in: Java 1.8 EE  
+	* 
+	* Several basic security measures and fault tolerance semantics were implemented according to the given project statement. 
+	*
+	* For compilation and execution instructions please checkout the script PDFs, they are written in portuguese, but the required commands are written in italic.
