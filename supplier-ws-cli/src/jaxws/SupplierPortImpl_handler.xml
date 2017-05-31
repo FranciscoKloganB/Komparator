@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<handler-chains xmlns="http://java.sun.com/xml/ns/javaee">
+	<handler-chain>
+		<handler>
+			<handler-class>org.komparator.security.handler.LoggingHandler</handler-class>
+		</handler>
+		<handler>
+			<handler-class>org.komparator.security.handler.FreshnessSupplierClientHandler</handler-class>
+		</handler>
+		<handler>
+			<handler-class>org.komparator.security.handler.SignatureSupplierClientHandler</handler-class>
+		</handler>
+		<handler>
+			<handler-class>org.komparator.security.handler.LoggingHandler</handler-class>
+		</handler>
+	</handler-chain>
+</handler-chains>
